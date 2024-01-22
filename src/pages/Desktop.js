@@ -1,7 +1,7 @@
 const Desktop = () => {
   return (
     <div className="w-full relative overflow-hidden flex flex-col items-start justify-start bg-[url('/public/desktop@3x.png')] bg-cover bg-no-repeat bg-[top] tracking-[normal]">
-      <section className="self-stretch flex flex-row items-start justify-start relative max-w-full text-left text-base text-white font-manrope">
+      <section className="self-stretch flex flex-row items-start h-screen justify-start relative max-w-full text-left text-base text-white font-manrope">
         <div className="w-[1450px] absolute my-0 mx-[!important] right-[-10px] bottom-[-670px] rounded-[50%] bg-gray-100 [filter:blur(300px)] h-[1341px]" />
         <div className="flex-1 flex flex-col items-center justify-center gap-[228px] max-w-full shrink-0 z-[1] mq450:gap-[57px] mq750:gap-[114px]">
           <header className="self-stretch flex flex-row items-center justify-between py-2.5 px-[100px] box-border min-w-[340px] gap-[20px] max-w-full text-left text-base text-white font-beyonders mq450:pl-5 mq450:pr-5 mq450:box-border mq750:hidden mq1050:pl-[50px] mq1050:pr-[50px] mq1050:box-border">
